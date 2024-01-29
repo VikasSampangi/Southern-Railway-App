@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="Home"/>
+        <item android:id="@+id/nav_live"
+            android:icon="@drawable/nav1"
+            android:title="Live"/>
+        <item android:id="@+id/nav_headquarters"
+            android:icon="@drawable/nav2"
+            android:title="Headquarters"/>
+        <item android:id="@+id/nav_division"
+            android:icon="@drawable/nav3"
+            android:title="Division"/>
+        <item android:id="@+id/nav_watc"
+            android:icon="@drawable/nav4"
+            android:title="Workshops And Training center"/>
+        <item android:id="@+id/nav_constructions"
+            android:icon="@drawable/nav5"
+            android:title="Constructions"/>
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About"/>
+            <item android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send"/>
+        </menu>
+    </item>
+</menu>
